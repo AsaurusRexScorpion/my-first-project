@@ -3,5 +3,5 @@ services:
     # Replace this with the actual path to your GitHub container image
     image: ghcr.io/asaurusrexscorpion/my-first-project:latest
     ports:
-      - "8080:5000"
+      - "5000:5000"
     restart: always
